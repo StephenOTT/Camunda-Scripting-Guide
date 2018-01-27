@@ -24,14 +24,19 @@
           src: 'pages/intro.md'
         },
         {
-          path: '/deployments',
           title: 'Deployments',
-          src: 'pages/deployments.md'
-        },
-        {
-          path: '/deployments/server',
-          title: 'Server',
-          src: 'pages/deployments.md'
+          pages: [
+            {
+              path: '/deployments',
+              title: 'Deployments Overview',
+              src: 'pages/deployments.md'
+            },
+            {
+              path: '/deployments/server',
+              title: 'Server',
+              src: 'pages/deployments-server.md'
+            },
+          ]
         },
         {
           path: '/javascript',
@@ -63,7 +68,6 @@
           title: 'Use Cases',
           src: '#'
         }
-        // Other pages …
       ]
     }, document.getElementById('catalog'));
   </script>
