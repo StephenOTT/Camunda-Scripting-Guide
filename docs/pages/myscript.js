@@ -18,5 +18,5 @@
     }
   };
 
-  xhr.open('GET', 'pages/test.bpmn', true);
+  xhr.open('GET', 'docs/pages/test.bpmn', true);
   xhr.send(null);
