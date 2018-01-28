@@ -32,3 +32,9 @@ https://github.com/camunda/camunda-spin
 
 https://docs.camunda.org/manual/7.8/reference/spin/json/01-reading-json/
 
+
+
+---
+
+Importing Java for usage in scripts:
+
