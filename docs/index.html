@@ -29,24 +29,24 @@
             {
               path: '/deployments',
               title: 'Deployments Overview',
-              src: 'pages/deployments.md'
+              src: 'pages/deployment/deployments.md'
             },
             {
               path: '/deployments/server',
               title: 'Server',
-              src: 'pages/deployments-server.md'
+              src: 'pages/deployment/deployments-server.md'
             },
           ]
         },
         {
           path: '/javascript',
           title: 'Javascript',
-          src: 'pages/javascript.md'
+          src: 'pages/nashorn/javascript.md'
         },
         {
           path: '/unit-testing',
           title: 'Unit Testing',
-          src: 'pages/unit-testing.md'
+          src: 'pages/testing/unit-testing.md'
         },
         {
           path: '/utility-scripts',
@@ -56,7 +56,7 @@
         {
           path: '/microservices-orchestration',
           title: 'Microservice Orchestration',
-          src: 'pages/microservice-orchestration.md'
+          src: 'pages/microservices/microservice-orchestration.md'
         },
         {
           path: '/project-template',
@@ -67,7 +67,7 @@
           path: '/use-cases',
           title: 'Use Cases',
           src: 'pages/use-cases.md',
-          scripts: ['https://cdn.rawgit.com/bpmn-io/bower-bpmn-js/v0.26.3/dist/bpmn-viewer.js', '/myscript.js'],
+          scripts: ['https://cdn.rawgit.com/bpmn-io/bower-bpmn-js/v0.26.3/dist/bpmn-viewer.js', './myscript.js'],
         }
       ]
     }, document.getElementById('catalog'));
