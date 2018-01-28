@@ -1,7 +1,7 @@
 'use strict'
 
 var elements = document.getElementsByClassName("bpmn");
-
+console.log(elements)
 var viewers = [];
 var xhrs = [];
 
