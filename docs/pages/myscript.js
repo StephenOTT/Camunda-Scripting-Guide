@@ -1,6 +1,7 @@
 'use strict'
 
 var elements = document.getElementsByClassName("bpmn");
+console.log('dog')
 console.log(elements)
 var viewers = [];
 var xhrs = [];
