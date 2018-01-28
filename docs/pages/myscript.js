@@ -1,6 +1,6 @@
 'use strict'
 
-var viewer = new BpmnJS({ container: '#canvas' });
+var viewer = new BpmnJS({ container: '#canvas' },{});
 
 var xhr = new XMLHttpRequest();
 
