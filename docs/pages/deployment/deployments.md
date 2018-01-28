@@ -6,3 +6,7 @@
 1. Automated Deployments (Jenkins + GIT)
 1. Clustering
 1. Database selection
+
+
+https://github.com/StephenOTT/ProcessProjectTemplate/blob/master/docs/deployment.md
+
