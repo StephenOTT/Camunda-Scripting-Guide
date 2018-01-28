@@ -1,22 +1,22 @@
-// BpmnJS is the BPMN viewer instance
-  var viewer = new BpmnJS({ container: '#canvas' });
+'use strict'
 
-  var xhr = new XMLHttpRequest();
+var viewer = new BpmnJS({ container: '#canvas' });
 
-  xhr.onreadystatechange = function() {
-    if (xhr.readyState === 4) {
-      viewer.importXML(xhr.response, function(err) {
-        if (err) {
-              // import failed :-(
-            } else {
-              // we did well!
+var xhr = new XMLHttpRequest();
 
-              var canvas = viewer.get('canvas');
-              canvas.zoom('fit-viewport');
-            }
-      });
-    }
-  };
+xhr.onreadystatechange = function() {
+  if (xhr.readyState === 4) {
+    viewer.importXML(xhr.response, function(err) {
+      if (err) {
+            // import failed :-(
+          } else {
+            // we did well!
+            var canvas = viewer.get('canvas');
+            canvas.zoom('fit-viewport');
+          }
+    });
+  }
+};
 
-  xhr.open('GET', './pages/test.bpmn', true);
-  xhr.send(null);
+xhr.open('GET', './pages/test.bpmn', true);
+xhr.send(null);

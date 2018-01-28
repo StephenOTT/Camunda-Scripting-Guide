@@ -3,4 +3,4 @@
 Different use cases and how to use them
 
 <!-- BPMN diagram container -->
-<div id="canvas"></div>
+<div id="canvas" data-bpmn='./pages/test.bpmn'></div>

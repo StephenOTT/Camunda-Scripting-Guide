@@ -1,0 +1,6 @@
+html, body, #canvas {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  border-style: solid;
+  border-width: 2px;
+}
